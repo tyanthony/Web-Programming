@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <title>Project 2</title>
+    <h1>Tic Tac Toe</h1>
+    <p>Click a box to begin!</p>
+    <div id="computerStart">
+        <label>Click below to let the computer start</label><br>
+        <button type="button" id="computerStartButton" name="button" onclick='cpStartButtonClick()'>Computer Start</button>
+    </div>
+
+    <br>
+    <div id="grid">
+        <div class="row1">
+            <button type="button" name="button1" id="button1" onclick="setButton(1)">-</button>
+            <button type="button" name="button2" id="button2" onclick="setButton(2)">-</button>
+            <button type="button" name="button3" id="button3" onclick="setButton(3)">-</button>
+        </div>
+        <div class="row2">
+            <button type="button" name="button4" id="button4" onclick="setButton(4)">-</button>
+            <button type="button" name="button5" id="button5" onclick="setButton(5)">-</button>
+            <button type="button" name="button6" id="button6" onclick="setButton(6)">-</button>
+        </div>
+        <div class="row3">
+            <button type="button" name="button7" id="button7" onclick="setButton(7)">-</button>
+            <button type="button" name="button8" id="button8" onclick="setButton(8)">-</button>
+            <button type="button" name="button9" id="button9" onclick="setButton(9)">-</button>
+        </div>
+    </div>
+    <br>
+
+    <div class="winner">
+        <label for="winner" id="winner"></label><br><br>
+        <button type="button" id="reset" name="reset" onclick="reset()">Reset</button>
+    </div>
+
+    <script src="project2.js"></script>
+</html>

@@ -1,0 +1,9 @@
+CSPC 4820
+September 6, 2017
+
+
+grid[0][0] = {
+    value: false,
+    domNode: document.createElement("div")
+}
+grid[0][0].domNode.onClick = buttonClick.bind(null, 0,0);
